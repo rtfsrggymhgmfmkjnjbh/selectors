@@ -1,0 +1,183 @@
+body {
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 30px;
+    text-align: center;   
+}
+header{
+    position: sticky;
+    top:0px;
+}
+
+nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.container h1 {
+    margin: 10px 120px;
+    text-align: center;
+}
+
+div h1 {
+    background-color: white;
+    height: 100px;
+    padding-top: 6px;
+}
+
+.about {
+    background-color: white;
+    width: 78%;
+    margin: 0 40px;
+    margin-left: 7.5rem;
+    margin-right: 5rem;
+    padding: 20px;
+    /* height: 70px; */
+}
+
+.about img {
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.about p{
+    display: flex;
+    margin-left: 140px;
+    /* margin-bottom: 50px; */
+    /* margin: 20px; */
+    /* padding-bottom: 50px; */
+    margin-top: -73px;
+}
+.about h2{
+    margin-bottom: 40px;
+}
+
+.table {
+    margin: 10px 3px;
+}
+
+
+.table thead tr {
+    background-color: lightblue;
+}
+
+.container1 {
+    background-color: white;
+    margin: 10px 120px;
+}
+
+.container1 h1 {
+    padding-top: 6px;
+    margin-left:30px;
+
+
+}
+
+.container3 {
+    background-color: white;
+    width: 79%;
+    margin: 10px 113px;
+    padding: 20px;
+}
+
+
+.project1 {
+    background-color: lightgrey;
+    float: left;
+    width: 35%;
+    height: 200px;
+    padding: 20px 15px;
+    margin: 10px 120px;
+    border-radius: 20px;
+    /* margin-right: 80px; */
+}
+
+.project2 {
+    background-color: lightgrey;
+    float: right;
+    width: 35%;
+    height: 200px;
+    margin-right: 100px;
+    margin-top: -251px;
+    padding: 20px 15px;
+    border-radius: 20px;
+    /* margin-left: 70px; */
+}
+
+.project3 {
+    background-color: lightgrey;
+    width: 35%;
+    height: 200px;
+    margin: 0px 120px;
+    padding: 20px 15px;
+    border-radius: 20px;
+    clear: both;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    margin-bottom: 10px;
+    margin-right: 80rem;
+}
+
+
+input,
+textarea {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 65rem;
+}
+
+.container4 {
+    background-color: white;
+    width: 83.5%;
+    margin: 13px 107px;
+    padding: 20px;
+}
+
+.container4 h1 {
+    display: flex;
+    justify-content: left;
+    margin-right: 10rem;
+
+
+}
+
+.container5 {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+div.sticky{
+    position: sticky;
+    position:-webkit-sticky;
+    top:0;
+    /* padding:50px; */
+
+
+}
